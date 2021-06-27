@@ -31,7 +31,7 @@ const config = {
   },    
 
   devServer: {
-    open: true,
+    open: false,
     host: 'localhost',
   },
 

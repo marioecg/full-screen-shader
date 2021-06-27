@@ -8,8 +8,8 @@ class Raf {
     this.init();
   }
 
-  tick() {
-    Emitter.emit('tick');
+  tick(time, delta) {
+    Emitter.emit('tick', { time, delta });
   }
 
   on() {
