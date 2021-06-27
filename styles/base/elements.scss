@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  font-size: calc(100vw / 1920 * 10);
+
+  @include media('<=phone') {
+    font-size: calc(100vw / 375 * 10);
+  }  
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
