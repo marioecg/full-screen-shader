@@ -1,1 +1,2 @@
-# full-screen-shader
+# Full screen shader ✨🎨
+Template for a full screen shader on the web.
